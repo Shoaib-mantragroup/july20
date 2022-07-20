@@ -10,6 +10,12 @@ location = /iloveyou  {
 }
 
 ## we have included this in /etc/nginx/sites-available/default
+## we need to test nginx
+sudo nginx -t
+## gives syntax is correct or wrong
+
+## need to restart/ reload nginx
+sudo systemctl restart nginx
 
 ## whenever we type http://localhost:80
  ## we get normal nginx page
